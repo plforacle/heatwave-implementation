@@ -14,14 +14,15 @@
         },
    
         {
-            "title": "Lab 1: Create MySQL Database System",
+            "title": "Lab 1: Create MySQL DB System",
             "filename": "../../create-dbs/create-dbs.md"
         },
 
         {
-          "title": "Lab 2: Connect to MySQL HeatWave With Cloud Shell Private Access and OCI Shell",
-          "filename": "../../connect-dbs-ocishell-mysqlshell/connect-dbs-ocishell-mysqlshell.md"
-        },
+          "title": "Lab 2: Create Compute Instance and Connect to MySQL HeatWave",
+          "filename": "../../create-compute-connect/create-compute-connect.md"
+        },  
+
 
         {
             "title": "Lab 3: Load HeatWave cluster",

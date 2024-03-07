@@ -12,7 +12,7 @@ In this workshop, you will learn how to create a MySQL HeatWave Cluster, connect
 
 Overall this workshop will show you how easy it is to create and manage MySQL HeatWave and how MySQL HeatWave enables you to make informed business-critical decisions with real-time insights.
 
-_Estimated Lab Time:_ 1.5 hours
+_Estimated Lab Time:_ 2 hours
 
 ## About Product/Technology
 
