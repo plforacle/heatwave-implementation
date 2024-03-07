@@ -77,7 +77,7 @@ Edit an inbound replication channel if you need to change configuration items su
 
 Use the Console to Edit a replication channel.
 
-Go to the link below and follow the **Editing a Channell** Instructions:
+Go to the link below and follow the **Editing a Channel** Instructions:
 
 [Editing a Channel](https://docs.oracle.com/en-us/iaas/mysql-database/doc/managing-replication-channel.html#GUID-4CD38EFA-7463-4175-8838-0EE40C0FABC9)
 
