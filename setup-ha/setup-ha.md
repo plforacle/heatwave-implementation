@@ -1,5 +1,8 @@
 # Setup MySQL HeatWave High Availability
 
+![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
+
+
 ## Introduction
 
 A high availability DB system is made up of three MySQL instances: a primary instance, and two secondary instances. All data that you write to the primary instance is copied to the secondary instances. A high availability DB system guarantees if one instance fails, another takes over, with zero data loss and minimal downtime.
