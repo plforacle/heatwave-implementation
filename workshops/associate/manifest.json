@@ -49,68 +49,67 @@
         },
 
         {
-          "title": "Lab 8: Create and Test HeatWave Lakehouse",
-          "filename": "../../do-lakehouse/do-lakehouse.md"  
-        },
-
-        {
-          "title": "Lab 9: (Bonus) Build Oracle Analytics Cloud Dashboard with HeatWave",
-          "filename": "../../do-oac-advanced/do-oac-advanced.md"
-        }, 
-
-        {
-          "title": "Lab 10: Create and Test HeatWave Machine Learning",
-          "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
-        }, 
-
-        {
-          "title": "Lab 11: (Bonus)  Build LAMP Application with MySQL HeatWave",
-          "filename": "../../create-lamp-advanced/create-lamp-advanced.md"
-        },  
-
-        
-        {
-          "title": "Lab 12: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
-          "filename": "../../apex-heatwave/apex-heatwave.md"
-        },
-
-        {
-          "title": "Lab 13: Manage MySQL HeatWave DB System",
+          "title": "Lab 8: Manage MySQL HeatWave DB System",
           "filename": "../../manage-heatwave/manage-heatwave.md"
         },
 
         {
-          "title": "Lab 14: Backup MySQL HeatWave DB System",
+          "title": "Lab 9: Backup MySQL HeatWave DB System",
           "filename": "../../backup-dbs/backup-dbs.md"
         },
 
         {
-          "title": "Lab 15: Configure MySQL HeatWave DB System",
+          "title": "Lab 10: Configure MySQL HeatWave DB System",
           "filename": "../../config-dbs/config-dbs.md"
         },
  
         
         {
-          "title": "Lab 16: Setup MySQL HeatWave Read Replicas",
+          "title": "Lab 11: Setup MySQL HeatWave Read Replicas",
           "filename": "../../setup-replicas/setup-replicas.md"
         },
 
         {
-          "title": "Lab 17: Setup MySQL HeatWave Inbound Replication",
+          "title": "Lab 12: Setup MySQL HeatWave Inbound Replication",
           "filename": "../../setup-inbound-replication/setup-inbound-replication.md"
         },
 
                 
         {
-          "title": "Lab 18: Setup MySQL HeatWave Data Migrations",
+          "title": "Lab 13: Setup MySQL HeatWave Data Migrations",
           "filename": "../../setup-data-migration/setup-data-migration.md"
         },
 
+        {
+          "title": "Lab 14: Setup MySQL HeatWave High Availability",
+          "filename": "../../setup-ha/setup-ha.md"
+        },
 
+       
+        {
+          "title": "Lab 15: Create and Test HeatWave Lakehouse",
+          "filename": "../../do-lakehouse/do-lakehouse.md"  
+        },
 
         {
-          "title": "Lab 19: Setup MySQL HeatWave High Availability",
-          "filename": "../../setup-ha/setup-ha.md"
+          "title": "Lab 16: (Bonus) Build Oracle Analytics Cloud Dashboard with HeatWave",
+          "filename": "../../do-oac-advanced/do-oac-advanced.md"
+        }, 
+
+        {
+          "title": "Lab 17: Create and Test HeatWave Machine Learning",
+          "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
+        }, 
+
+        {
+          "title": "Lab 18: (Bonus)  Build LAMP Application with MySQL HeatWave",
+          "filename": "../../create-lamp-advanced/create-lamp-advanced.md"
+        },  
+
+        
+        {
+          "title": "Lab 19: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
+          "filename": "../../apex-heatwave/apex-heatwave.md"
         },
 
         {
