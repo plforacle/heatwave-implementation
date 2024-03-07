@@ -53,30 +53,45 @@
         },
 
         {
-          "title": "Lab 9: Create and Test HeatWave Lakehouse",
+          "title": "Lab 9: Backup MySQL HeatWave DB System",
+          "filename": "../../backup-dbs/backup-dbs.md"
+        },
+
+        {
+          "title": "Lab 10: Manage MySQL HeatWave DB System",
+          "filename": "../../manage-heatwave/manage-heatwave.md"
+        },
+
+        {
+          "title": "Lab 11: Create and Test HeatWave Lakehouse",
           "filename": "../../do-lakehouse/do-lakehouse.md"  
         },
 
         {
-          "title": "Lab 10: (Bonus) Build Oracle Analytics Cloud Dashboard with HeatWave",
+          "title": "Lab 12: (Bonus) Build Oracle Analytics Cloud Dashboard with HeatWave",
           "filename": "../../do-oac-advanced/do-oac-advanced.md"
         }, 
 
         {
-          "title": "Lab 11: Create and Test HeatWave Machine Learning",
+          "title": "Lab 13: Create and Test HeatWave Machine Learning",
           "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
         }, 
 
         {
-          "title": "Lab 12: Build LAMP Application with MySQL HeatWave",
+          "title": "Lab 14: Build LAMP Application with MySQL HeatWave",
           "filename": "../../create-lamp-advanced/create-lamp-advanced.md"
         },  
 
         
         {
-          "title": "Lab 13: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
+          "title": "Lab 15: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
           "filename": "../../apex-heatwave/apex-heatwave.md"
         }, 
+
+        {
+          "title": "Lab 16: Stop OCI Services",
+          "filename": "../../stop-services/stop-services.md"
+        },
 
         {
             "title": "Need Help?",
