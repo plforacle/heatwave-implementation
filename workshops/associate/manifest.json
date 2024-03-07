@@ -19,45 +19,59 @@
         },
 
         {
-          "title": "Lab 2: Create Compute Instance and Connect to MySQL HeatWave",
-          "filename": "../../create-compute-connect/create-compute-connect.md"
+          "title": "Lab 2: Create Compute Instance",
+          "filename": "../../create-compute/create-compute.md"
         },  
 
+        {
+          "title": "Lab 3: Connect to DB system with MySQL Shell and Workbench",
+          "filename": "../../connect-compute/connect-compute.md"
+        },  
+        
+        {
+          "title": "Lab 4: Connect to DB system with OCI Bastion",
+          "filename": "../../connect-dbs-bastion/connect-dbs-bastion.md"
+        },
 
         {
-            "title": "Lab 3: Load HeatWave cluster",
+          "title": "Lab 5: Connect to DB system with OCI SQL Worksheet",
+          "filename": "../../connect-dbs-worksheet/connect-dbs-worksheet.md"
+        },
+
+        {
+            "title": "Lab 6: Load HeatWave cluster",
             "filename": "../../load-heatwave/load-heatwave.md"
         },
         
         {
-            "title": "Lab 4: Run Queries in HeatWave and MySQL ",
+            "title": "Lab 7: Run Queries in HeatWave and MySQL ",
             "filename": "../../run-queries/run-queries.md"
         },
         {
-          "title": "Lab 5: Configure MySQL DB System",
+          "title": "Lab 8: Configure MySQL DB System",
           "filename": "../../config-dbs/config-dbs.md"
         },
 
         {
-          "title": "Lab 6: Do HeatWave Machine Learning",
+          "title": "Lab 9: Do HeatWave Machine Learning",
           "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
         }, 
 
         {
-          "title": "Lab 7: Do HeatWave Lakehouse",
+          "title": "Lab 10: Do HeatWave Lakehouse",
           "filename": "../../do-lakehouse/do-lakehouse.md"  
         },
         {
-          "title": "Lab 8: Build a LAMP application with MySQL HeatWave",
+          "title": "Lab 11: Build a LAMP application with MySQL HeatWave",
           "filename": "../../create-lamp-advanced/create-lamp-advanced.md"
         },  
         {
-          "title": "Lab 9: (Bonus) Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave",
+          "title": "Lab 12: (Bonus) Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave",
           "filename": "../../do-oac-advanced/do-oac-advanced.md"
         }, 
         
         {
-          "title": "Lab 10: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
+          "title": "Lab 13: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
           "filename": "../../apex-heatwave/apex-heatwave.md"
         }, 
 
