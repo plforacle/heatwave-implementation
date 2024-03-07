@@ -1,4 +1,4 @@
-# Create Compute Instance and Connect to MySQL HeatWave
+# Connect to HeatWave with MySQL Shell and Workbench
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 

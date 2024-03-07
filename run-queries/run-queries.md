@@ -1,4 +1,4 @@
-# Run Queries with MySQL Shell
+# Run Queries in HeatWave and MySQL 
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 

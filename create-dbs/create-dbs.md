@@ -1,4 +1,4 @@
-# Create MySQL HeatWave Database System
+# Create MySQL HeatWave Instance
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 

@@ -1,4 +1,4 @@
-# Configure MySQL DB System
+# Configure MySQL HeatWave DB System
 
 
 ## Introduction

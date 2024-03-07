@@ -1,4 +1,4 @@
-# Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave
+# Build Oracle Analytics Cloud Dashboard with HeatWave
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 

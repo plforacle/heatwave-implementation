@@ -1,4 +1,4 @@
-# Build HeatWave ML with SQL
+# Create and Test HeatWave Machine Learning
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 

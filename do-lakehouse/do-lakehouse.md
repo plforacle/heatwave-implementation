@@ -1,4 +1,4 @@
-# Do HeatWave Lakehouse
+# Create and Test HeatWave Lakehouse
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 

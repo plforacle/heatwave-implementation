@@ -1,4 +1,4 @@
-# Connect to DB system with OCI SQL Worksheet
+# Connect to HeatWave with OCI SQL Worksheet
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 

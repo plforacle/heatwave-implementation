@@ -1,4 +1,4 @@
-# Load HeatWave cluster in MySQL Database System
+# Load Airportdb Data into HeatWave
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 

@@ -1,4 +1,4 @@
-# Connect to MySQL HeatWave Using Bastion
+# Connect to HeatWave with OCI Bastion
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 
