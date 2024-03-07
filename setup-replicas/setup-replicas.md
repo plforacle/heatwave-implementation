@@ -115,9 +115,24 @@ Use the Console to monitor read replicas metrics.
 8.Monitor the read replica metrics to check the health and performance of the read replica.
     ![mysql heatwave Replica Metrics](./images/replica-metrics.png "mysql heatwave Replica Metrics")
 
+## Task 4: Describe the read replica load balancer
+
+A read replica load balancer helps to distribute read traffic among the read replicas. When you create the first read replica, a read replica load balancer is created automatically, and all read replicas are added as a backend to the load balancer. If the read replica load balancer is not created for any reason, then the read replica is not created either. A read replica load balancer is deleted only when you delete the associated DB system.
+
+For more details see OCI Document:
+[Read replicas on MySQL Database Service](https://blogs.oracle.com/mysql/post/read-replicas-mysql-database-service).
+
+## Task 5: Connect to a read replica
+
+You can connect to a read replica in a similar way as you connect to a DB system - using a compute instance, bastion session, or VPN. See **Lab 3: Connect to HeatWave with MySQL Shell and Workbench**.
+
+For more details see OCI Document:
+[Overview of Read Replica](https://docs.oracle.com/en-us/iaas/mysql-database/doc/overview-read-replica.html#:~:text=You%20can%20connect%20to%20a,the%20read%20replica%20lag%20metric).
+
+You may now **proceed to the next lab**
+
 ## Acknowledgements
 
-- **Author** - Perside Foster, MySQL Solution Engineering
-
-- **Contributors** - Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, October 2023
+- **Author** - Perside Foster, MySQL Principal Solution Engineering
+- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager, Selena Sanchez, MySQL Solution Engineering
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, March 2024
