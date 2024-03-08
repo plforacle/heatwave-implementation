@@ -29,7 +29,7 @@ In this lab, you will be guided through the following tasks:
 - Must Complete Lab 5
 
 
-## Task 31: Connect to Compute System
+## Task 1: Connect to Compute System
 
 1. Go to Cloud shell to SSH into the new Compute Instance
 
@@ -73,7 +73,7 @@ In this lab, you will be guided through the following tasks:
 4. Your notepad should look like the following:
      ![notepad rsa key compute db](./images/notepad-rsa-key-compute-db.png "notepad rsa key compute db ")
 
-## Task 3: Connect to Databsae with MySQL Shell
+## Task 3: Connect to Database with MySQL Shell
 
 1. From your Compute instance, connect to HEATWAVE-DB  using the MySQL Shell client tool.
 
