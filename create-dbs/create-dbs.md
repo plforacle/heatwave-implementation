@@ -226,13 +226,17 @@ In this lab, you will be guided through the following tasks:
 
 11. Click on Show Advanced Options
 
-12. **IPORTANT** Go to the Networking tab, in the Hostname field enter (same as DB System Name):
+12. **IPORTANT** Go to the Configuration tab. Click on **Select a MySQL version** and select the latest MySQL version of the DB system.
+
+    ![HeatWave add host](./images/mysql-configuration-version.png "mysql host ")
+
+13. **IPORTANT** Go to the Connections tab, in the Hostname field enter (your DB System Name):
 
     ```bash
         <copy>HEATWAVE-DB</copy> 
     ```  
 
-    ![heatwave db advanced](./images/mysql-create-advanced.png "heatwave db advanced ")
+    ![heatwave db advanced](./images/mysql-create-advanced-connections.png "heatwave db advanced ")
 
 13. Review **Create MySQL DB System**  Screen
 
