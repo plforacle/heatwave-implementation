@@ -146,7 +146,7 @@ In this lab, you will be guided through the following tasks:
 
 ## Task 4: Create MySQL Database for HeatWave (DB System) instance
 
-1. Click on Navigation Menu
+1. Click on Navigation Menu > Databases > MySQL
          Databases
          MySQL
     ![home menu mysq](./images/home-menu-database-mysql.png "home menu mysql")
@@ -185,14 +185,14 @@ In this lab, you will be guided through the following tasks:
     <copy>MySQL HeatWave Database Instance</copy>
     ```
 
-    d. Select **Standalone** and enable **Configure MySQL HeatWave**
-    ![heatwave db info setup](./images/mysql-create-info-setup.png "heatwave db info setup ")
+    d. Select **Standalone** and DISABLE **Configure MySQL HeatWave**
+    ![heatwave db stand alone](./images/mysql-create-stand-alone.png "heatwave db stand alone ")
 
-6. Create Administrator Credentials
+6. Create Administrator Credentials - **IPORTANT** username must be set to **admin**  in order to successfully complete this workshop
 
-    **Enter Username** (write username to notepad for later use)
+    Username : **admin**
 
-    **Enter Password** (write password to notepad for later use)
+    Password*  (write password to notepad for later use)
 
     **Confirm Password** (value should match password for later use)
 
@@ -211,8 +211,9 @@ In this lab, you will be guided through the following tasks:
     ![heatwave db network ad](./images/mysql-create-network-ad.png "heatwave db network ad ")
 
 8. On Configure hardware
-    - a. Click the **Change shape** button to select the **MySQL.HeatWave.VM.Standard** shape.
-    - b. For Data Storage Size (GB) Set value to:  **1024**
+    - a. **IPORTANT** Uncheck the box to disable **Enable Heatwave** for this lab
+    - b. Click the **Change shape** button to select the **MySQL.2** shape.
+    - c. For Data Storage Size (GB) Set value to:  **100**
 
     ![heatwave db  hardware](./images/mysql-create-db-hardware.png "heatwave db hardware ")
 
@@ -220,9 +221,12 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave db  backup](./images/mysql-create-backup.png " heatwave db  backup")
 
-10. Click on Show Advanced Options
+10. **IPORTANT**
+    > **NOTE** In order to successfully complete this workshop you must execute **steps 11, 12, and 13**
 
-11. Go to the Networking tab, in the Hostname field enter (same as DB System Name):
+11. Click on Show Advanced Options
+
+12. **IPORTANT** Go to the Networking tab, in the Hostname field enter (same as DB System Name):
 
     ```bash
         <copy>HEATWAVE-DB</copy> 
@@ -230,19 +234,18 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave db advanced](./images/mysql-create-advanced.png "heatwave db advanced ")
 
-12. Review **Create MySQL DB System**  Screen
+13. Review **Create MySQL DB System**  Screen
 
     ![heatwave db create](./images/mysql-create.png "heatwave db create ")
   
-
     Click the '**Create**' button
 
-13. The New MySQL DB System will be ready to use after a few minutes
+14. The New MySQL DB System will be ready to use after a few minutes
 
     The state will be shown as 'Creating' during the creation
     ![show creeation state](./images/mysql-create-in-progress.png "show creeation state")
 
-14. The state 'Active' indicates that the DB System is ready for use
+15. The state 'Active' indicates that the DB System is ready for use
 
     On HEATWAVE-HW Page, check the MySQL Endpoint (Private IP Address)
 
