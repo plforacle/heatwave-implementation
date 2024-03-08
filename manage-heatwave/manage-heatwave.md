@@ -100,6 +100,6 @@ When the delete process is done, **HeatWave_DB** will be set to the **Delete** s
 
 ## Acknowledgements
 
-- **Author** -  Perside Foster, MySQL Solution Engineering
-- **Contributors** -  Sriram Vrinda, MySQL Product Manager
+- **Author** - Perside Foster, MySQL Principal Solution Engineering
+- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager, Selena Sanchez, MySQL Solution Engineering
 - **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, March 2024

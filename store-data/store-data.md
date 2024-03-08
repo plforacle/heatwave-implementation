@@ -93,7 +93,6 @@ Download the airportdb sample database  The download is approximately 640 MBs in
 
 ## Acknowledgements
 
-- **Author** - Perside Foster, MySQL Solution Engineering, Harsh Nayak , MySQL Solution Engineering 
-- **Contributors** - Frédéric Descamps, MySQL Community  Manager, Orlando Gentil, Principal Training Lead and Evangelist
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, November 2022
-
+- **Author** - Perside Foster, MySQL Principal Solution Engineering
+- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager, Selena Sanchez, MySQL Solution Engineering
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, March 2024
