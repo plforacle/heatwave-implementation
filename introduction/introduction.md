@@ -12,7 +12,7 @@ In this workshop, you will learn how to create a MySQL HeatWave Cluster, connect
 
 Overall this workshop will show you how easy it is to create and manage MySQL HeatWave and how MySQL HeatWave enables you to make informed business-critical decisions with real-time insights.
 
-_Estimated Lab Time:_ 2 hours
+_Estimated Lab Time:_ 4 hours
 
 ## About Product/Technology
 
@@ -35,19 +35,29 @@ _Lab Setup
 
 ## Objectives
 
-In this lab, you will be guided through the following steps:
+This Workshop provides you with the knowledge required to Provision, Configure, and Manage MySQL HeatWave for OLTP / OLAP/ AutoML / Lakehouse. You will be guided through the following steps:
 
-- Create SSH Key on Oracle Cloud Infrastructure Cloud Shell
-- Create MySQL Database for HeatWave (DB System) instance 
-- Setup Compute instance
-- Connect to DB System using MySQL Shell through Compute Instance / Cloud Shell and add sample data (airportdb)
-- Add HeatWave cluster to DB System
-- Load sample data to HeatWave Cluster
-- Run queries in HeatWave and MySQL and see the performance improvement in HeatWave!
-- Run MySQL Autopilot to get performance improvement suggestions
-- Run queries again in HeatWave and see the improvement!
-- Create Lamp test application
-- Use Oracle Anayltics Cloud
+- Create MySQL HeatWave Instance
+- Create Compute Instance
+- Connect to HeatWave with MySQL Shell and Workbench
+- Connect to HeatWave with OCI Bastion
+- Connect to HeatWave with OCI SQL Worksheet
+- Manage MySQL HeatWave DB System
+- Backup MySQL HeatWave DB System
+- Configure MySQL HeatWave DB System
+- Setup MySQL HeatWave Read Replicas
+- Setup MySQL HeatWave Inbound Replication
+- Migrate Data Into MySQL HeatWave
+- Setup MySQL HeatWave High Availability
+- Load Airportdb Data into HeatWave
+- Run Queries in HeatWave and MySQL
+- Create and Test HeatWave Lakehouse
+- (Bonus) Build Oracle Analytics Cloud Dashboard with HeatWave
+- Create and Test HeatWave Machine Learning
+- (Bonus) Build LAMP Application with MySQL HeatWave
+- (Bonus) Develop MySQL HeatWave Apps with Oracle APEX
+- Stop OCI Services
+
 
 ## Prerequisites
 
@@ -59,5 +69,5 @@ You may now **proceed to the next lab**
 ## Acknowledgements
 
 - **Author** - Perside Foster, MySQL Principal Solution Engineering
-- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, July 2023
+- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager, Selena Sanchez, MySQL Solution Engineering
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, March 2024
