@@ -92,19 +92,25 @@ In this lab, you will be guided through the following tasks:
 
     ![mysql shell first connect](./images/mysql-shell-first-connect.png "mysql shell first connect ")
 
-3. On MySQL Shell, switch to SQL mode to try some SQL commands. Type the following command at the prompt:
+3. On MySQL Shell, switch to SQL mode
+
+    ```bash
+    <copy>\sql</copy>
+    ```
+
+4. List all of the HeatWave Schemas
 
     ```bash
     <copy>SHOW DATABASES;</copy>
     ```
 
-4. To display the database version, current date, and user, type the following command at the prompt:
+5. Display the database version, current date, and your username
 
     ```bash
     <copy>SELECT VERSION(), CURRENT_DATE, USER();</copy>
     ```
 
-5. To display MysQL user and host from user table type the following command at the prompt:
+6. Display MysQL user and host from the user table
 
     ```bash
     <copy>SELECT VERSION(), CURRENT_DATE, USER();</copy>
@@ -123,7 +129,7 @@ The installation procedure involves downloading the airportdb database to cloud 
 2. Load the airportdb database into the MySQL DB System using the MySQL Shell Dump Loading Utility.
 
     ```bash
-    <copy>util.loadDump("https://objectstorage.us-ashburn-1.oraclecloud.com/p/yXOA3Kwid4uG0oHvHMufbK3cSESmQlU6-0bVB_1vQ8VxR0ggB1m-nDYYOXXy0O5W/n/idazzjlcjqzj/b/airportdb-bucket-112312031/o/airportdb_all/", {progressFile: "progress.json", loadIndexes:false})</copy>
+    <copy>util.loadDump("https://objectstorage.us-ashburn-1.oraclecloud.com/p/yXOA3Kwid4uG0oHvHMufbK3cSESmQlU6-0bVB_1vQ8VxR0ggB1m-nDYYOXXy0O5W/n/idazzjlcjqzj/b/airportdb-bucket-112312031/o/airportdb_all/", {threads: 8,progressFile: "progress.json", loadIndexes:false})</copy>
     ```
 
     ![mysql load data](./images/mysql-load-data.png "mysql load data ")
