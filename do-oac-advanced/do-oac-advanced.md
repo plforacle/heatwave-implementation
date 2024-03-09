@@ -88,7 +88,7 @@ In this lab, you will be guided through the following tasks:
 5. Wait 30 minutes for the process to finish, then continue to Task 3
     ![oac private access created  ](./images/created-pac-oac.png " created-pac-oac")
 
-## Task 3: Get HeatWave DB Hostname **
+## Task 3: Get HeatWave DB Hostname
 
 1. Before starting go to Menu Databases > DB Systems
 
@@ -102,7 +102,7 @@ In this lab, you will be guided through the following tasks:
 
     Example : **hwdb.sub09012.....hwvcn.oraclevcn.com**
 
-## Task 4: - Build OAC Dashboard**
+## Task 4: - Build OAC Dashboard
 
 1. Navigate to hamburger->Analytics->Analytics Clouds
 
