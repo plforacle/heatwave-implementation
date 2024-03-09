@@ -76,16 +76,16 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
     - Go to Navigation Menu > Databases > MySQL
      ![db list](./images/db-list.png "db list")
 
-    - Click on the `MDS-HW` Database System link
+    - Click on the `HEATWAVE-DB` Database System link. 
 
      ![active ](./images/db-active.png "active ")
 
-    - Copy the `Private IP Address` to the notepad
+    - Go to the **Connections** tab and copy the **Private IP address** to the notepad
 
 2. Do the followings steps to copy  the public SSH key to the  notepad
 
     - Open the Cloud shell
-     ![cloud shell](./images/cloudshell-10.png "cloud shell")
+     ![cloud shell open](./images/cloudshell-open.png "cloud shell open")
 
     - Enter the following command
 
@@ -93,17 +93,17 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
      <copy>cat .ssh/id_rsa.pub</copy>
     ```
 
-    ![new cloud shell](./images/cloudshell-11.png "new cloud shell")
+    ![new cloud shell get ssh](./images/cloudshell-get-ssh.png "new cloud shell det ssh")
 
 3. Copy the id_rsa.pub content the notepad
         Your notepad should look like this
-    ![notepad](./images/notepad1.png "notepad ")  
+    ![notepad](./images/notepad-display.png "notepad ")  
 
 4. Go to Navigation Menu > Identity Security > Bastion
 
 5. Click the `MDSBastion` link
 
-     ![bastion identity](./images/bastion-05.png "bastion identity ")
+     ![bastion display](./images/bastion-display.png "bastion display ")
 
 6. Click `Create Session`
 
@@ -123,10 +123,10 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
 
 9. Add SSH Key -  Copy SSH Key from notepad
     - The screen should look like this
-    ![ssh key](./images/bastion-06.png "ssh key ")
+    ![ssh key](./images/bastion-ssh-key.png "ssh key ")
     - Click the `Create Session` button
 10. The completed Bastion Session should look like this
-    ![bastion session](./images/bastion-07.png "bastion session ")
+    ![bastion session display](./images/bastion-session-display.png "bastion session display")
 
     **Note: The Session will expire in 180 minutes**
 
@@ -134,27 +134,27 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
 
 1. Click on the 3 vertical dots on the Bastion Session
 
-    ![connect with bastion](./images/bastion-08.png "connect with bastion ")
+    ![connect with bastion](./images/bastion-connect.png "connect with bastion ")
 
 2. Click `View SSH Command`  
 
-    ![view ssh](./images/bastion-09.png "view ssh ")
+    ![bastion view ssh](./images/bastion-view.png "bastion view ssh ")
 
 3. Click copy and paste the information to your notepad and hit Close
 
 4. update the session command on notepad
-    - Set the beginning of the command `ssh -4 -i ~/.ssh/id_rsa -N -L 3306`
-    - *add the `-v` character* at the end of the command or the connection will not be successful
+    - Set the beginning of the command `ssh -i <privateKey> -N -L 3306`
+    - Add the verbose (-v) option to the SSH command for detailed information about the connection.
 
     The command from your notepad should look like this
 
-    ![notepad display](./images/notepad2.png "notepad display")
+    ![notepad display](./images/notepad-connect-command.png "notepad display")
 
 5. Open the cloud shell and enter the command from the notepad. Add  the Database IP address Enter IP addtess from notepad It should like this..
 
     *Don't forget the -v  character*
 
-    `ssh  -i ~/.ssh/id_rsa -N -L 3306:10.0.1...:3306 -p 22 ocid1.bastionsession.oc1.iad.amaaaaaacalccniavpdipmbwvxk...ybm2g7fuaea@host.bastion.us-ashburn-1.oci.oraclecloud.com -v`
+    `ssh -i <privateKey> -N -L 3306:10.0.1.91:3306 -p 22 ocid1.bastionsession.oc1.iad.amaaaaaa4flldaqaenwy5wydszfhp2q7af463mdzgeh33kakv5ztmoq4v3nq@host.bastion.us-ashburn-1.oci.oraclecloud.com -v`
 
 6. Use MySQL Shell to connect to the MySQL Database Service. Enter:
 
@@ -168,7 +168,7 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
     <copy>SELECT table_name, table_rows FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'airportdb';</copy>
     ```
 
-    ![Connect](./images/airport-db-view02.png "view arportdb ")
+    ![view arportdb](./images/airport-db-view.png "view arportdb ")
 
 **Note** You can also use  the bastion service to connect to your local computer and access  MySQL  with Workbench or Visual Studio Code
 
