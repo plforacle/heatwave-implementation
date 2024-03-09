@@ -26,7 +26,6 @@ In this lab, you will be guided through the following tasks:
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
-- Must Complete Lab 5
 
 ## Task 1: Create SSH Key on OCI Cloud Shell
 
@@ -228,7 +227,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
 
     ![mysql endpoint private ip](./images/mysql-endpoint-private-ip.png "mysql endpoint private ip")
 
-2. Use the following command to connect to MySQL using the MySQL Shell client tool. Be sure to add the MDS-HW private IP address at the end of the command. Also enter the admin user and the db password created on Lab 1
+2. Use the following command to connect to MySQL using the MySQL Shell client tool. Be sure to add the HEATWAVE-DB private IP address at the end of the command. Also enter the admin user and the db password created on Lab 1
 
     (Example  **mysqlsh -uadmin -p -h10.0.1..**)
 
@@ -240,19 +239,19 @@ You will need a compute Instance to connect to your brand new MySQL database.
 
     ![mysql shell first connect](./images/mysql-shell-first-connect.png "mysql shell first connect ")
 
-3. On MySQL Shell, switch to SQL mode to try some SQL commands. Type the following command at the prompt:
+3. On MySQL Shell, switch to SQL mode to try some SQL commands.
+
+    ```bash
+    <copy>\sql;</copy>
+    ```
+
+4. Type the following command at the prompt:
 
     ```bash
     <copy>SHOW DATABASES;</copy>
     ```
 
-4. To display the database version, current date, and user, type the following command at the prompt:
-
-    ```bash
-    <copy>SELECT VERSION(), CURRENT_DATE, USER();</copy>
-    ```
-
-5. To display MysQL user and host from user table type the following command at the prompt:
+5. To display the database version, current date, and user, type the following command at the prompt:
 
     ```bash
     <copy>SELECT VERSION(), CURRENT_DATE, USER();</copy>

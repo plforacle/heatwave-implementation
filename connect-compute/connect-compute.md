@@ -26,7 +26,6 @@ In this lab, you will be guided through the following tasks:
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
-- Must Complete Lab 5
 
 
 ## Task 1: Connect to Compute System

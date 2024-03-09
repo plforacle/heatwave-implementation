@@ -36,7 +36,7 @@ In this lab, you will be guided through the following task:
 
     ![Create Vault](./images/create-vault.png "create-vault ")
 
-    b. Select the movies compartment
+    b. Select the root compartment
 
     c. Give the vault a name
 
@@ -54,7 +54,7 @@ In this lab, you will be guided through the following task:
 
     ![Create Master Encryption Key](./images/vault-menu-create-key.png "vault-menu-create-key ")
 
-    c. Select the movies compartment
+    c. Select the root compartment
 
     d. Give the key a name
 
@@ -78,7 +78,7 @@ In this lab, you will be guided through the following task:
 
     ![Create Secrets Panel](./images/create-secret-panel.png "create-secret-panel ")
 
-    c. Select the movies compartment
+    c. Select the root compartment
 
     d. Give the secret a name
 
@@ -111,18 +111,18 @@ In this lab, you will be guided through the following task:
     b. Give the Endpoint a name
 
     ```bash
-    <copy> HW-MovieHub-endpoint </copy>
+    <copy> HW-endpoint </copy>
     ```
 
-    c. Select the movies compartment
+    c. Select the root compartment
 
     d. Select **Enter network information**
 
-    e. Select the **private subnet** from the movies compartment
+    e. Select the **private subnet** from the roo compartment
 
     ![Create Private Endpoint Details](./images/create-private-endpoint-details.png "create-private-endpoint-details ")
 
-    f. Click **Create**
+    f. Click **Create**select “Manual Secret Generation”
 
 3. Create a Connection
 
@@ -133,10 +133,10 @@ In this lab, you will be guided through the following task:
     b. Give the Endpoint a name
 
     ```bash
-    <copy> HW-MovieHub-Connection </copy>
+    <copy> HW-Connection </copy>
     ```
 
-    c. Select the movies compartment
+    c. Select the root compartment
 
     d. Select **Select database** option
 
@@ -156,7 +156,7 @@ In this lab, you will be guided through the following task:
 
     ![Developer Services SQL Worksheet](./images/OCI-developer-services-sql-worksheets.png "OCI-developer-services-sql-worksheets ")
 
-2. Select the movies compartment and the created **HW-MovieHub-Connection**
+2. Select the roo compartment and the created **HW-Connection**
 
 3. You can run SQL queries, in the SQL Worksheet.
 

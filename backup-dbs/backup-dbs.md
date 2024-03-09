@@ -207,8 +207,10 @@ In this lab, you will be guided through the following tasks:
 5. When the backup is deleted, its state will change to **Deleted** and it cannot be restored. 
     ![delete backup](./images/delete-backup-completed.png "delete backup completed")
 
-    **Note**: It may take a few minutes for the backup to be deleted.
-
+    > **Note**: 
+    - It may take a few minutes for the backup to be deleted.
+    - Disable PITR (as it’s not compatible with Lakehouse) or disable backups completely to avoid issues later.
+ 
 You may now **proceed to the next lab**
 
 ## Acknowledgements

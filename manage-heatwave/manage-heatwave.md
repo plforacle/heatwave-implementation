@@ -1,4 +1,4 @@
-# Mange MySQL HeatWave Service
+# Manage MySQL HeatWave Service
 
 ## Introduction
 
@@ -74,7 +74,7 @@ Deleting a database system is permanent. Any manual backups associated with the 
     ![List Database Systems](./images/mysql-list.png "List Database Systems")
 
 
-3. Choose the **HeatWave_Sandbox** Compartment.
+3. Choose the **root** Compartment.
 
 4. Click **HeatWave_DB** to open the MySQL DB System Details page.
 
