@@ -22,7 +22,6 @@ In this lab, you will be guided through the following task:
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with OCI Console
 - Some Experience with Oracle Autonomous and Oracle APEX
-- Completed Lab 8
 
 ## Task 1 Setup Identity & Security tools in OCI to Create a Secret
 

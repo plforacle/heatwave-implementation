@@ -21,8 +21,6 @@ In this lab, you will be guided through the following tasks:
 ### Prerequisites
 
 - An Oracle Trial or Paid Cloud Account
-- Completed Task 3
-
 
 ## Task 1: Create a Manual Backup
 

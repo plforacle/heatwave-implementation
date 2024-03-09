@@ -24,7 +24,7 @@ In this lab, you will be guided through the following task:
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
-- Completed Lab 3
+
 
 ## Task 1: Create a DB system with data import
 
