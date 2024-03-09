@@ -252,7 +252,7 @@ In this lab, you will be guided through the following tasks:
 
 15. The state 'Active' indicates that the DB System is ready for use
 
-    On HEATWAVE-HW Page, check the MySQL Endpoint (Private IP Address)
+    On HEATWAVE-HW Page, select the **Connections** tab and save the **Private IP**
 
     ![heatwave endpoint](./images/mysql-detail-active.png "heatwave endpoint")
 
