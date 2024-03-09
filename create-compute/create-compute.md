@@ -26,15 +26,13 @@ In this lab, you will be guided through the following tasks:
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
-- Must Complete Lab 5
+- Must Complete Lab 1
 
 ## Task 1: Create SSH Key on OCI Cloud Shell
 
 The Cloud Shell machine is a small virtual machine running a Bash shell which you access through the Oracle Cloud Console (Homepage). You will start the Cloud Shell and generate a SSH Key to use  for the Bastion  session.
 
 1. To start the Oracle Cloud shell, go to your Cloud console and click the cloud shell icon at the top right of the page. This will open the Cloud Shell in the browser, the first time it takes some time to generate it.
-
-    cloudshell-main
 
     ![cloud shell main](./images/cloud-shell.png  "cloud shell main " )
 
@@ -152,9 +150,9 @@ You will need a compute Instance to connect to your brand new MySQL database.
   
     ![compute create add ssh key](./images/compute-create-add-ssh-key.png "compute create add ssh key ")
 
-17. Keep Boot Volume default and Click **Create** button to finish creating your Compute Instance.
+17. On Boot Volume select the **Use in-transit encryption** box and click the **Create** button to finish creating your Compute Instance.
 
-    ![compute create boot volue](./images/compute-create-boot-volume.png "compute create boot volume")
+    ![compute Use in-transit encryption](./images/compute-create-boot-volume.png "compute Use in-transit encryption")
 
 18. The New Virtual Machine will be ready to use after a few minutes. The state will be shown as 'Provisioning' during the creation
     ![compute provisioning](./images/compute-provisioning.png "compute provisioning ")

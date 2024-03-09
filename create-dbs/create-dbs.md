@@ -188,7 +188,7 @@ In this lab, you will be guided through the following tasks:
     d. Select **Standalone** and DISABLE **Configure MySQL HeatWave**
     ![heatwave db stand alone](./images/mysql-create-stand-alone.png "heatwave db stand alone ")
 
-6. Create Administrator Credentials - **IPORTANT** username must be set to **admin**  in order to successfully complete this workshop
+6. Create Administrator Credentials - **IMPORTANT** username must be set to **admin**  in order to successfully complete this workshop
 
     Username : **admin**
 
@@ -210,27 +210,28 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave db network ad](./images/mysql-create-network-ad.png "heatwave db network ad ")
 
-8. On Configure hardware
-    - a. **IPORTANT** Uncheck the box to disable **Enable Heatwave** for this lab
-    - b. Click the **Change shape** button to select the **MySQL.2** shape.
-    - c. For Data Storage Size (GB) Set value to:  **100**
-
-    ![heatwave db  hardware](./images/mysql-create-db-hardware.png "heatwave db hardware ")
-
-9. On Configure Backups, disable 'Enable Automatic Backup'
+8. On Configure Backups, disable 'Enable Automatic Backup'
 
     ![heatwave db  backup](./images/mysql-create-backup.png " heatwave db  backup")
 
-10. **IPORTANT**
+9. On Configure hardware
+    - 1. **IMPORTANT** Check the  **Enable Heatwave** box
+    - 2. Click the **Change shape** button to select **OCPU** then **MySQL.HeatWave.VM.Standard** shape and and click the **Select a Shape** button
+    - 3. Click the **Configure HeatWave Cluster** button to select **Change shape** then **MySQL.HeatWave.VM.Standard** shape, Check the **MySQL HeatWave Lakehouse** box and click the **Save Changes** button
+    - 4. For Data Storage Size (GB) Set value to:  **512**
+
+    ![heatwave db  hardware heatwave](./images/mysql-create-db-hardware-heatwave.png "heatwave db hardware heatwave")
+
+10. **IMPORTANT**
     > **NOTE** In order to successfully complete this workshop you must execute **steps 11, 12, and 13**
 
 11. Click on Show Advanced Options
 
-12. **IPORTANT** Go to the Configuration tab. Click on **Select a MySQL version** and select the latest MySQL version of the DB system.
+12. **IMPORTANT** Go to the Configuration tab. Click on **Select a MySQL version** and select the latest MySQL version of the DB system.
 
     ![HeatWave add host](./images/mysql-configuration-version.png "mysql host ")
 
-13. **IPORTANT** Go to the Connections tab, in the Hostname field enter (your DB System Name):
+13. **IMPORTANT** Go to the Connections tab, in the Hostname field enter (your DB System Name):
 
     ```bash
         <copy>HEATWAVE-DB</copy> 
