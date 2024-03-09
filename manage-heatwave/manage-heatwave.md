@@ -85,6 +85,8 @@ Deleting a database system is permanent. Any manual backups associated with the 
 
       ![HeatWave Details More Actions page](./images/mysql-details-more-actions.png "HeatWave Details More Actions page")
 
+    >**WARNING** If you are planning to continue using this HeatWave DB System then skip the next step **Step 6**
+
 6. Check the **Delete DB System Permanently** box and click the **Delete DB System** button.
 
     ![Confirm Delete](./images/mysql-confirm-delete.png "Confirm Delete")

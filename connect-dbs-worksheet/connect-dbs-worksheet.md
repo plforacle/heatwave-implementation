@@ -33,8 +33,6 @@ In this lab, you will be guided through the following task:
 
     a. Click **Create Vault**
 
-    ![Create Vault](./images/create-vault.png "create-vault ")
-
     b. Select the root compartment
 
     c. Give the vault a name
@@ -45,6 +43,7 @@ In this lab, you will be guided through the following task:
 
     d. Click **Create Vault**
 
+    ![Create Vault](./images/create-vault.png "create-vault ")
 3. Create a Master Encryption Key
 
     a. Click on the newly created Vault
@@ -71,7 +70,7 @@ In this lab, you will be guided through the following task:
 
     a. Click on **Secrets** to navigate to the secrets panel
 
-    ![Navigate to Secrets Panel](./images/navigate-secret-panel.png =60%x* "navigate-secret-panel ")
+    ![Navigate to Secrets Panel](./images/navigate-secret-panel.png "navigate-secret-panel ")
 
     b. Click **Create Secret**
 
@@ -85,7 +84,7 @@ In this lab, you will be guided through the following task:
     <copy> HW-DB </copy>
     ```
 
-    e. Select the created Encryption Key
+    e. Select the the **Manual Encryption Generation** box
 
     f. In **Secret Contents**, write the password for the admin user created for your MySQL HeatWave DB System
 
@@ -141,9 +140,11 @@ In this lab, you will be guided through the following task:
 
     e. Select **MySQL Database** for Database cloud service
 
-    f. Introduce the MySQL DB System created administrator user
+    f. Enter **admin** for username
 
-    g. Select the created secret that contains the matching mysql password
+    g. Introduce the MySQL DB System created administrator user
+
+    h. Select the created secret that contains the matching mysql password
 
     ![Create Connection Details](./images/create-connection-details.png "create-connection-details ")
 
@@ -155,15 +156,24 @@ In this lab, you will be guided through the following task:
 
     ![Developer Services SQL Worksheet](./images/OCI-developer-services-sql-worksheets.png "OCI-developer-services-sql-worksheets ")
 
-2. Select the roo compartment and the created **HW-Connection**
+2. Select the root compartment and the created **HW-Connection**
+
+3. Click the **SQL Worksheet** button
+
+    ![Connection Select](./images/connection-select.png "Connection Select")
+
 
 3. You can run SQL queries, in the SQL Worksheet.
 
     a. List the schemas
 
     ```bash
-    <copy> SHOW SCHEMAS;</copy>
+    <copy>show database;</copy>
     ```
+
+    ![Connection Run](./images/connection-run.png "Connection Run")
+
+You may now **proceed to the next lab**
 
 ## Acknowledgements
 
