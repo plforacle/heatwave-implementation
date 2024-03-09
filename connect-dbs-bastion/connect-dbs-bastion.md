@@ -176,6 +176,8 @@ Watch the video below for a quick walk through.
 
 [](youtube:3R0DBBer26E)
 
+You may now **proceed to the next lab**
+
 ## Acknowledgements
 
 - **Author** - Perside Foster, MySQL Principal Solution Engineering

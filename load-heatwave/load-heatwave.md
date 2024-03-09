@@ -46,7 +46,7 @@ In this lab, you will be guided through the following task:
         ![mysql apply cluster](./images/mysql-apply-cluster.png " mysql apply cluster")
 
 4. HeatWave cluster creation will take about 10 minutes. From the DB display page scroll down to the Resources section. Click the **HeatWave** link. Your completed HeatWave Cluster Information section will look like this:
-    ![mysql creating cluster](./images/mysql-creating-cluster.png "mysql creating cluster ")
+    ![mysql cluster compltete](./images/mysql-cluster-complete.png "mysql cluster compltete")
 
 ## Task 2: Load airportdb Data into HeatWave Cluster
 
