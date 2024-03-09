@@ -31,11 +31,11 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
 
 1. Go to Navigation Menu > Identity Security > Bastion
 
-    ![new bastion](./images/bastion-01.png "new bastion ")
+    ![bastion menu](./images/bastion-menu.png " bastion menu")
 
 2. Click Create Bastion
 
-    ![bastion intro](./images/bastion-02.png "bastion intro ")
+    ![bastion menu create](./images/bastion-menu-create.png "bastion menu create ")
 
 3. On Create bastion, complete the following fields:
 
@@ -61,13 +61,13 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
 
     Click `0.0.0.0/0(New)`
 
-     ![bastion show](./images/bastion-03.png "bastion show ")
+     ![bastion create page](./images/bastion-create.png "bastion create page ")
 
 4. Click `Create Bastion` button
 
     When completed your screen should look like this:
 
-    ![bastion complete](./images/bastion-04.png "bastion complete ")
+    ![bastion list](./images/bastion-menu-list.png "bastion list ")
 
 ## Task 2: Create Bastion Session
 

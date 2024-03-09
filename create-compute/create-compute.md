@@ -166,7 +166,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
 
 2. Enter the username **opc** and the Public **IP Address**.
 
-    Note: The **HEATWAVE-Client**  shows the  Public IP Address as mentioned on TASK 5: #1
+    Note: The **HEATWAVE-Client**  shows the  Public IP Address on the Compute Detail page
 
     (Example: **ssh -i ~/.ssh/id_rsa opc@132.145.170...**) 
 

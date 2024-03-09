@@ -24,7 +24,6 @@ In this lab, you will be guided through the following task:
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
 
-
 ## Task 1: Add a HeatWave Cluster to MDS-HW MySQL Database System
 
 1. Open the navigation menu  
@@ -37,8 +36,12 @@ In this lab, you will be guided through the following task:
 3. In the list of DB Systems, click the **HEATWAVE-DB** system. click **More Action ->  Add HeatWave Cluster**.
     ![mysql more actions add cluster](./images/mysql-more-actions-add-cluster.png " mysql more actions add cluster")
 
-    - a. Enable the MySQL HeatWave LakeHouse checkbox
-    - b. Set Node Count to 2 for this Lab and Click Add HeatWave Cluster to create the HeatWave cluster
+    >**Note** If the **HeatWave Cluster** is already enabled then skip to **Task 2**
+
+    - a. Enable the **MySQL HeatWave LakeHouse** checkbox
+    - b. Set **Node Count** to 1 
+    - c. Enable the **MySQL HeatWave Lakehouse** checkbox
+    - d. Click the **Add HeatWave Cluster** button to create the HeatWave cluster
 
         ![mysql apply cluster](./images/mysql-apply-cluster.png " mysql apply cluster")
 
