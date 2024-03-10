@@ -23,9 +23,15 @@ In this lab, you will be guided through the following tasks:
 
 ## Task 1: Run Queries in HeatWave
 
-1. Connect via OCI Console mysql shell
+1. Go to Cloud shell to SSH into the Compute Instance
 
-2. On command Line, use the following command:
+    (Example: **ssh -i ~/.ssh/id_rsa opc@132.145.170...**) 
+
+    ```bash
+    <copy>ssh -i ~/.ssh/id_rsa opc@<your_compute_instance_ip></copy>
+    ```
+
+2. Connect to the HeatWave Database using MySQL Shell with the following command:
 
     ```bash
     <copy>mysqlsh -uadmin -p -h 10.0.1... --sql </copy>

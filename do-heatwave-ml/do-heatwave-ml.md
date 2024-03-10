@@ -34,9 +34,16 @@ In this lab, you will be guided through the following task:
 
 ## Task 1: Connect MySQL Shell:
 
-1. If not already connected then connect to OCI Shell
+1. Go to Cloud shell to SSH into the Compute Instance
 
-2. On the command line, connect to MySQL using the MySQL Shell client tool with the following command:
+    (Example: **ssh -i ~/.ssh/id_rsa opc@132.145.170...**) 
+
+    ```bash
+    <copy>ssh -i ~/.ssh/id_rsa opc@<your_compute_instance_ip></copy>
+    ```
+
+
+2. Connect to MySQL using MySQL Shell with the following command:
 
     ```bash
     <copy>mysqlsh -uadmin -p -h 10.... -P3306 --sql </copy>

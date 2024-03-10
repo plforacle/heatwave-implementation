@@ -84,25 +84,25 @@ In this lab, you will be guided through the following tasks:
 
 ## Task 5: Setup MySQL HeatWave system for Lakehouse processing
 
-1. If not already enabled then enable HeatWave Lakehouse
+1. Make sure HeatWave Lakehouse is enabled. If not then execute **Lab 4: Load Airportdb Data into HeatWave**
 
-    **Add Image***
+    ![Enabled HeatWave Lakehouse](./images/heatwave-lakehouse-enabled.png " Enabled HeatWave Lakehouse")
 
-2. Connect to MySQL using the MySQL Shell client tool with the following command:
+2. Go to Cloud shell to SSH into the Compute Instance
+
+    (Example: **ssh -i ~/.ssh/id_rsa opc@132.145.170...**) 
+
+    ```bash
+    <copy>ssh -i ~/.ssh/id_rsa opc@<your_compute_instance_ip></copy>
+    ```
+
+3. Connect to the HeatWave Database using MySQL Shell with the following command:
 
     ```bash
     <copy>mysqlsh -uadmin -p -h 10.0.1... --sql </copy>
     ```
+
     ![MySQL Shell Connect](./images/mysql-shell-login.png " mysql shell login")
-
-3. Run the following Auto Parallel Load command to load the airportdb tables into HeatWave..
-
-     ```bash
-    <copy>CALL sys.heatwave_load(JSON_ARRAY('airportdb'), NULL);</copy>
-    ```
-    - If the airportdb tables are already loaded in HeatWave Cluster then you will get the following result
-
-        ![mysql heatwave load](./images/mysql-heatwave-load.png "mysql heatwave load ")
 
 4. List schemas in your heatwave instance
 

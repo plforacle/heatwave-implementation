@@ -28,7 +28,7 @@ In this lab, you will be guided through the following tasks:
 - Some Experience with MySQL Shell
 
 
-## Task 1: Connect to Compute System
+## Task 1: Connect to the Compute System
 
 1. Go to Cloud shell to SSH into the new Compute Instance
 
