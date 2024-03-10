@@ -92,7 +92,7 @@ In this lab, you will be guided through the following tasks:
 5. Wait 15 minutes for the process to finish, then continue to Task 3
     ![oac private access created  ](./images/created-pac-oac.png " created-pac-oac")
 
-## Task 3: Get HeatWave DB Hostname **
+## Task 3: Get HeatWave DB Hostname
 
 1. Before starting go to Menu Databases > DB Systems
 
@@ -106,7 +106,7 @@ In this lab, you will be guided through the following tasks:
 
     Example : **hwdb.sub09012.....hwvcn.oraclevcn.com**
 
-## Task 4: - Use OAC to Analyze the Lakehouse passenger-survey data**
+## Task 4: - Use OAC to Analyze the Lakehouse passenger-survey data
 
 1. Navigate to hamburger->Analytics->Analytics Clouds
 
@@ -181,7 +181,7 @@ In this lab, you will be guided through the following tasks:
 
 15. What if we could get data on airline routes and their delays... and what if we cauld find a way to predict fligt delays before the customer made their reservation and provide this information so they could choose flights with less delays? You can skip to Lab 7 to help make it happen!
 
-## Task 5: - Build OAC Dashboard with non-Lakehouse data**
+## Task 5: - Build OAC Dashboard with non-Lakehouse data
 
 1. Select the MySQL Connection created earlier "heatwave"
 

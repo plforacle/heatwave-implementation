@@ -45,6 +45,10 @@ In this lab, you will be guided through the following task:
 
         ![mysql apply cluster](./images/mysql-apply-cluster.png " mysql apply cluster")
 
+    >**Note** You can let HeatWave estimate the number of required nodes for your data. Click the **Estimate Node** button,  then select the schemas or tables you want to analyze with HeatWave. This operation takes few minutes to complete.
+
+    - ![mysql apply cluster](./images/mysql-cluster-estimate.png " mysql apply cluster")
+
 4. HeatWave cluster creation will take about 10 minutes. From the DB display page scroll down to the Resources section. Click the **HeatWave** link. Your completed HeatWave Cluster Information section will look like this:
     ![mysql cluster compltete](./images/mysql-cluster-complete.png "mysql cluster compltete")
 
@@ -61,13 +65,17 @@ In this lab, you will be guided through the following task:
 
     ![mysql shell start](./images/mysql-shell-start.png "mysql shell start ")
 
-3. Run the following Auto Parallel Load command to load the airportdb tables into HeatWave..
+3. Run the following Auto Parallel Load command to load the airportdb tables into the HeatWave Cluster.
 
      ```bash
     <copy>CALL sys.heatwave_load(JSON_ARRAY('airportdb'), NULL);</copy>
     ```
 
-    ![mysql heatwave load](./images/mysql-heatwave-load.png "mysql heatwave load ")
+    - >**Note** The time required to load a table depends on data size. You can monitor load progress by issuing the following query, which returns a percentage value indicating load progress.
+
+        ```bash
+        <copy>SELECT VARIABLE_VALUE  FROM performance_schema.global_status  WHERE VARIABLE_NAME = 'rapid_load_progress';</copy>
+        ```
 
 4. The completed load cluster screen should look like this:
 
@@ -84,6 +92,13 @@ In this lab, you will be guided through the following task:
     ```
 
     ![mysql performance schema](./images/mysql-performance-schema.png "mysql performance schema ")
+
+    >**Do not Execute now!** - Just in case you want to know...
+    - To unload the airportdb schema from the HeatWave Cluster
+
+     ```bash
+    <copy>CALL sys.heatwave_unload(JSON_ARRAY("airportdb"),NULL);</copy>
+    ```
 
 You may now **proceed to the next lab**
 
