@@ -155,7 +155,7 @@ In this lab, you will be guided through the following tasks:
             "table_name": "passenger_survey",
             "dialect": 
         {
-	    "skip_rows": 1,
+        "has_header": true,
         "format": "csv",
         "field_delimiter": ",",
         "record_delimiter": "\\n"
@@ -165,18 +165,9 @@ In this lab, you will be guided through the following tasks:
 
     - It should look like the following example (Be sure to include the PAR Link inside at of quotes("")):
 
-        *SET @dl_tables = '[{
-	"db_name": "airportdb",
-	"tables": [{
-    	"table_name": "passenger_survey",
-    	"dialect": 
-       	{
-	"skip_rows": 1,
-       	"format": "csv",
-       	"field_delimiter": ",",
-      	 "record_delimiter": "\\n"
-       	},
-    	"file": [{"par": "https://objectstorage.us-ashburn-1.oraclecloud.com/p/so0lv7a9-PKSHLDbUr2k9Dc-pX_HPjJM6GKG_LSqty7rQFcQVT5bKp1UZ9hRuIH-/n/idqfeduyocec/b/airport-survey/o/passenger_survey.csv"}]}]  }]';*
+        ![Load script set table](./images/load-script-set-table.png "Load script set table")
+
+    - Run the set table script now.
 
 4. This command populates all the options needed by Autoload:
 
@@ -210,38 +201,25 @@ In this lab, you will be guided through the following tasks:
 
 9. Copy the **CREATE TABLE** command from the results. It should look like the following example
 
-    *CREATE TABLE `airportdb`.`passenger_survey`( `col_1` mediumint unsigned NOT NULL, `col_2` varchar(10) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN', `col_3` varchar(8) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN', `col_4` smallint unsigned NOT NULL, `col_5` tinyint unsigned NOT NULL, `col_6` varchar(24) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN') ENGINE=lakehouse SECONDARY_ENGINE=RAPID ENGINE_ATTRIBUTE='{"file": [{"par": "https://objectstorage.us-ashburn-1.oraclecloud.com/p/gZvtUPPvW5vGWWCFSGle92jX3UOfuuh1fgztu-lK1r1ogYRzGswEJgOzoy-HeVae/n/idqfeduyocec/b/airport-survey/o/passenger_survey.csv"}], "dialect": {"format": "csv", "skip_rows": 1, "field_delimiter": ",", "record_delimiter": "\\n"}}';*
+    ```bash
+    <copy>CREATE TABLE `airportdb`.`passenger_survey`( `ID` mediumint unsigned NOT NULL, `Customer Type` varchar(10) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN', `Type of Travel` varchar(8) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN', `Departure Delay` smallint unsigned NOT NULL, `Baggage Handling` tinyint unsigned NOT NULL, `Satisfaction` varchar(24) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN') ENGINE=lakehouse SECONDARY_ENGINE=RAPID ENGINE_ATTRIBUTE='{"file": [{"par": "https://objectstorage.us-ashburn-1.oraclecloud.com/p/YNEjs2IkxNE2v9V3_qBvEmpuy1pfhU0R8fqeYDeeAnZEh0BwxXsfFavJGhhB8ETa/n/idknejrebswp/b/airport-survey/o/passenger_survey.csv"}], "dialect": {"format": "csv", "has_header": true, "field_delimiter": ",", "record_delimiter": "\\n"}}';</copy>
+    ```
 
-10. Modify the **CREATE TABLE** command to replace the generic column names, such as **col\_1**, with descriptive column names. Use the following values:
+10. Execute the **CREATE TABLE** command to create the passenger_survey table now.
 
-    - `col_1 : id`
-    - `col_2 : customer_type`
-    - `col_3 : travel_type`
-    - `col_4 : departure_delay`
-    - `col_5 : baggage_handling`
-    - `col_6 : satisfaction`
-    
-    **Important** Substitute the **(PAR URL)** value with the one you generated in the previous task
+11. The create command and result should look lie this
 
-11. Your modified **CREATE TABLE** command  should look similar to  the following example PAR value is not your valid PAR:
-
-    *CREATE TABLE `airportdb`.`passenger_survey`( `id` mediumint unsigned NOT NULL, `customer_type` varchar(10) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN', `travel_type` varchar(8) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN', `departure_delay` smallint unsigned NOT NULL, `baggage_handling` tinyint unsigned NOT NULL, `sastifaction` varchar(24) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN') ENGINE=lakehouse SECONDARY_ENGINE=RAPID ENGINE_ATTRIBUTE='{"file": [{"par": "https://objectstorage.us-ashburn-1.oraclecloud.com/p/gZvtUPPvW5vGWWCFSGle92jX3UOfuuh1fgztu-lK1r1ogYRzGswEJgOzoy-HeVae/n/idqfeduyocec/b/airport-survey/o/passenger_survey.csv"}], "dialect": {"format": "csv", "skip_rows": 1, "field_delimiter": ",","record_delimiter": "\\n"}}';*
-
-12. Execute the modified **CREATE TABLE** command to create the passenger_survey table.
-
-13. The create command and result should look lie this
-
-    ![Delivery Table create](./images/create-delivery-table.png "create delivery table")
+    ![Delivery Table create](./images/create-survey-table.png "create delivery table")
 
 ## Task 7: Load complete passenger_survey table from Object Store into MySQL HeatWave
 
-1. Run this command to see the table structure created.
+1. Run this command to see the created table structure .
 
     ```bash
     <copy>desc passenger_survey;</copy>
     ```
 
-    ![Delivery Table structure](./images/describe-delivery-table.png "describe delivery table")
+    ![Passenger Survey Table](./images/passenger-survey-table.png "Passenger Survey Table")
 
 2. Now load the data from the Object Store into the passenger_survey table.
 
@@ -249,19 +227,13 @@ In this lab, you will be guided through the following tasks:
     <copy> ALTER TABLE `airportdb`.`passenger_survey` SECONDARY_LOAD; </copy>
     ```
 
-3. Once Autoload completes,point to the schema
-
-    ```bash
-    <copy>use airportdb</copy>
-    ```
-
-4. Check the number of rows loaded into the table.
+3. Once Autoload completes, check the number of rows loaded into the table.
 
     ```bash
     <copy>select count(*) from passenger_survey;</copy>
     ```
 
-5. View a sample of the data in the table.
+4. View a sample of the data in the table.
 
     ```bash
     <copy>select * from passenger_survey limit 5;</copy>
@@ -270,16 +242,16 @@ In this lab, you will be guided through the following tasks:
     a. Join the passenger_survey table with other table in the schema
 
     ```bash
-    <copy> SELECT satisfaction,customer_type, travel_type, AVG(departure_delay) departure_delay,count(*) as nb_psgr
-    FROM airportdb.passenger_survey
-    group by customer_type,travel_type,satisfaction; </copy>
+    <copy> select p.* , ps.* from passenger p 
+    join passenger_survey ps on p.passenger_id = ps.ID
+    where p.passenger_id = 28; </copy>
     ```
 
-6. Your output for steps 2 thru 5 should look like this:
+5. Your output for steps 2 thru 5 should look like this:
 
-    ![Add data to table](./images/load-delivery-table.png "load delivery table")
+    ![Passenger Survey Output](./images/passenger-survey-output.png "Passenger Survey Output")
 
-7. Your passenger_survey table is now ready to be used in queries with other tables.
+6. Your passenger_survey table is now ready to be used in queries with other tables.
 
 You may now **proceed to the next lab**
 
