@@ -197,17 +197,30 @@ In this lab, you will be guided through the following tasks:
 
 8. The execution result conatins the SQL statements needed to create the table and then load this table data from the Object Store into HeatWave.
 
-    ![Create Table](./images/create-delivery-order.png "create passenger survey")
+    ![create passenger survey script](./images/create-passenger-survey-script.png "create passenger survey script")
 
 9. Copy the **CREATE TABLE** command from the results. It should look like the following example
 
-    ```bash
-    <copy>CREATE TABLE `airportdb`.`passenger_survey`( `ID` mediumint unsigned NOT NULL, `Customer Type` varchar(10) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN', `Type of Travel` varchar(8) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN', `Departure Delay` smallint unsigned NOT NULL, `Baggage Handling` tinyint unsigned NOT NULL, `Satisfaction` varchar(24) NOT NULL COMMENT 'RAPID_COLUMN=ENCODING=VARLEN') ENGINE=lakehouse SECONDARY_ENGINE=RAPID ENGINE_ATTRIBUTE='{"file": [{"par": "https://objectstorage.us-ashburn-1.oraclecloud.com/p/YNEjs2IkxNE2v9V3_qBvEmpuy1pfhU0R8fqeYDeeAnZEh0BwxXsfFavJGhhB8ETa/n/idknejrebswp/b/airport-survey/o/passenger_survey.csv"}], "dialect": {"format": "csv", "has_header": true, "field_delimiter": ",", "record_delimiter": "\\n"}}';</copy>
-    ```
+    ![create passenger survey script copy](./images/create-passenger-survey-script-copy.png "create passenger survey script copy")  
 
-10. Execute the **CREATE TABLE** command to create the passenger_survey table now.
+10. Modify the **CREATE TABLE** command to replace the generic column names, such as **col\_1**, with descriptive column names. Use the following values:
 
-11. The create command and result should look lie this
+    - `col_1 : id`
+    - `col_2 : customer_type`
+    - `col_3 : travel_type`
+    - `col_4 : departure_delay`
+    - `col_5 : baggage_handling`
+    - `col_6 : satisfaction`
+
+    **Important** Substitute the **(PAR URL)** value with the one you generated in the previous task
+
+11. Your modified **CREATE TABLE** command  should look similar to  the following example PAR value is not your valid PAR:
+
+    ![create passenger survey script update](./images/create-passenger-survey-script-update.png "create passenger survey script update")  
+
+12. Execute the modified **CREATE TABLE** command to create the passenger_survey table.
+
+13. The create command and result should look lie this
 
     ![Delivery Table create](./images/create-survey-table.png "create delivery table")
 
@@ -239,7 +252,7 @@ In this lab, you will be guided through the following tasks:
     <copy>select * from passenger_survey limit 5;</copy>
     ```
 
-    a. Join the passenger_survey table with other table in the schema
+    a. Join the passenger_survey table with another table in the schema
 
     ```bash
     <copy> select p.* , ps.* from passenger p 
