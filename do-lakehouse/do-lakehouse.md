@@ -45,7 +45,7 @@ In this lab, you will be guided through the following tasks:
 
     ![press bucket button](./images/press-bucket-button.png "press-bucket-button")
 
-## Task 3: Upload airportdb data
+## Task 3: Upload airport-survey data
 
 1. In the Buckets page, click the **airport-survey** name to load images into. The bucket's details page is displayed.
 2. Under Resources, click Objects to display the list of objects in the bucket.
@@ -104,7 +104,13 @@ In this lab, you will be guided through the following tasks:
 
     ![MySQL Shell Connect](./images/mysql-shell-login.png " mysql shell login")
 
-4. List schemas in your heatwave instance
+4. Change to SQL mode
+
+    ```bash
+    <copy>\sql</copy>
+    ```
+
+5. List schemas in your heatwave instance
 
     ```bash
     <copy>show databases;</copy>
@@ -112,7 +118,7 @@ In this lab, you will be guided through the following tasks:
 
     ![Databse Schemas](./images/list-schemas-after.png "list schemas after")
 
-5. Change to the airportdb database
+6. Change to the airportdb database
 
     Enter the following command at the prompt
 
@@ -120,7 +126,7 @@ In this lab, you will be guided through the following tasks:
     <copy>USE airportdb;</copy>
     ```
 
-6. To see a list of the tables available in the airportdb schema
+7. To see a list of the tables available in the airportdb schema
 
     Enter the following command at the prompt
 
