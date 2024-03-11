@@ -94,7 +94,7 @@ In this lab, you will be guided through the following tasks:
 
 2. Select HeatWave database: HeatWave-DB
 
-3. Go to Resources and click on the Endpoinst Link and  copy the Internal FQDN and save it to notepad
+3. Go to the **Connections** tab  on the Endpoinst Link. On the **Internal FQDN** click show, and  copy the  and save it to notepad
 
     ![database endpoint](./images/hw-db-endpoint.png "hw-db-endpoint ")
 
@@ -180,6 +180,8 @@ In this lab, you will be guided through the following tasks:
     FROM airportdb.passenger_survey
     group by customer_type,travel_type,satisfaction;</copy>
     ```
+
+    ![delay satisfaction workbook](./images/delay-satisfaction.png "delay satisfaction")
 
 You may now **proceed to the next lab**
 

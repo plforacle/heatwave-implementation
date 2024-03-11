@@ -150,17 +150,17 @@ In this lab, you will be guided through the following tasks:
 
     ```bash
     <copy>SET @dl_tables = '[{
-        "db_name": "airportdb",
-        "tables": [{
-            "table_name": "passenger_survey",
-            "dialect": 
-        {
-        "has_header": true,
-        "format": "csv",
-        "field_delimiter": ",",
-        "record_delimiter": "\\n"
-        },
-        "file": [{"par": "(PAR URL)"}]}]  }]';</copy>
+    "db_name": "airportdb",
+    "tables": [{
+        "table_name": "passenger_survey",
+        "dialect": 
+    {
+    "skip_rows": 1,
+    "format": "csv",
+    "field_delimiter": ",",
+    "record_delimiter": "\\n"
+    },
+    "file": [{"par": "(PAR URL)"}]}]  }]';</copy>
     ```
 
     - It should look like the following example (Be sure to include the PAR Link inside at of quotes("")):
