@@ -217,7 +217,12 @@ In this lab, you will be guided through the following tasks:
 9. On Configure hardware
     - 1. **IMPORTANT** Check the  **Enable Heatwave** box
     - 2. Click the **Change shape** button to select **OCPU** then **MySQL.HeatWave.VM.Standard** shape and and click the **Select a Shape** button
-    - 3. Click the **Configure HeatWave Cluster** button to select **Change shape** then **MySQL.HeatWave.VM.Standard** shape, Check the **MySQL HeatWave Lakehouse** box and click the **Save Changes** button
+    - 3. Click the **Configure HeatWave Cluster** button 
+        - Select **Change shape**
+        - Select **MySQL.HeatWave.VM.Standard** shape
+        - Set **Node** to 1
+        - Check the **MySQL HeatWave Lakehouse** box
+        - Click the **Save Changes** button
     - 4. For Data Storage Size (GB) Set value to:  **512**
 
     ![heatwave db  hardware heatwave](./images/mysql-create-db-hardware-heatwave.png "heatwave db hardware heatwave")
@@ -239,18 +244,18 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave db advanced](./images/mysql-create-advanced-connections.png "heatwave db advanced ")
 
-13. Review **Create MySQL DB System**  Screen
+14. Review **Create MySQL DB System**  Screen
 
     ![heatwave db create](./images/mysql-create.png "heatwave db create ")
   
     Click the '**Create**' button
 
-14. The New MySQL DB System will be ready to use after a few minutes
+15. The New MySQL DB System will be ready to use after a few minutes
 
     The state will be shown as 'Creating' during the creation
     ![show creeation state](./images/mysql-create-in-progress.png "show creeation state")
 
-15. The state 'Active' indicates that the DB System is ready for use
+16. The state 'Active' indicates that the DB System is ready for use
 
     On HEATWAVE-HW Page, select the **Connections** tab and save the **Private IP**
 
