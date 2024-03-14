@@ -225,7 +225,7 @@ In this lab, you will be guided through the following tasks:
         - Click the **Save Changes** button
     - 4. For Data Storage Size (GB) Set value to:  **512**
 
-    ![heatwave db  hardware heatwave](./images/mysql-create-db-hardware-heatwave.png "heatwave db hardware heatwave")
+    ![heatwave db  hardware heatwave](./images/mysql-create-db-hardware-heatwave-ecpu.png "heatwave db hardware heatwave")
 
 10. **IMPORTANT**
     > **NOTE** In order to successfully complete this workshop you must execute **steps 11, 12, and 13**
