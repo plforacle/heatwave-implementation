@@ -216,10 +216,10 @@ In this lab, you will be guided through the following tasks:
 
 9. On Configure hardware
     - 1. **IMPORTANT** Check the  **Enable Heatwave** box
-    - 2. Click the **Change shape** button to select **OCPU** then **MySQL.HeatWave.VM.Standard** shape and and click the **Select a Shape** button
+    - 2. Click the **Change shape** button to select **ECPU** then **MySQL.8** shape and and click the **Select a Shape** button
     - 3. Click the **Configure HeatWave Cluster** button 
         - Select **Change shape**
-        - Select **MySQL.HeatWave.VM.Standard** shape
+        - Select **HeatWave.512GB** shape
         - Set **Node** to 1
         - Check the **MySQL HeatWave Lakehouse** box
         - Click the **Save Changes** button
