@@ -21,7 +21,7 @@ In this lab, you will be guided through the following tasks:
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
 
-## Task 1: Create Virtual Cloud Network
+## Task 1: Create MySQL Database for HeatWave (DB System) instance
 
 1. You should be signed in to Oracle Cloud!
 

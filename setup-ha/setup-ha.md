@@ -36,7 +36,7 @@ To enable high availability on a DB system, do the following:
 
     ![Database List](./images/db-list.png "Database List")
 
-3. In the list of DB Systems, click the **heatwave-db** system. click **More Action ->  AEnable high availability**.
+3. In the list of DB Systems, click the **heatwave-db** system. click **More Action -> Enable high availability**.
     ![heatwave more enable ha ](./images/mysql-heatwave-more-enable-ha.png "mysql heatwave more enable ha")
 
 4. In the Enable high availability dialog box, click Enable.
