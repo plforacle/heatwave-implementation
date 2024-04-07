@@ -26,94 +26,96 @@
         },
 
         {
-          "title": "Lab 2: Create Compute Instance",
+          "title": "Lab 3: Create Compute Instance",
           "filename": "../../create-compute/create-compute.md"
         },  
 
         {
-          "title": "Lab 3: Connect to HeatWave with MySQL Shell and Workbench",
+          "title": "Lab 4: Connect to HeatWave with MySQL Shell and Workbench",
           "filename": "../../connect-compute/connect-compute.md"
         },  
-      
-        {
-          "title": "Lab 4: Load Airportdb Data into HeatWave",
-          "filename": "../../load-heatwave/load-heatwave.md"
-        },
-      
-        {
-          "title": "Lab 5: Run Queries in HeatWave and MySQL ",
-          "filename": "../../run-queries/run-queries.md"
-        },
 
         {
-          "title": "Lab 6: Create and Test HeatWave Lakehouse",
-          "filename": "../../do-lakehouse/do-lakehouse.md"  
-        },
-
-        {
-          "title": "Lab 7: (Bonus) Build Oracle Analytics Cloud Dashboard with HeatWave",
-          "filename": "../../do-oac-advanced/do-oac-advanced.md"
-        }, 
-
-        {
-          "title": "Lab 8: Create and Test HeatWave Machine Learning",
-          "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
-        }, 
-
-        {
-          "title": "Lab 9: (Bonus)  Build LAMP Application with MySQL HeatWave",
-          "filename": "../../create-lamp-advanced/create-lamp-advanced.md"
-        },  
-
-        {
-          "title": "Lab 10: Connect to HeatWave with OCI Bastion",
+          "title": "Lab 5: Connect to HeatWave with OCI Bastion",
           "filename": "../../connect-dbs-bastion/connect-dbs-bastion.md"
         },
 
         {
-          "title": "Lab 11: Connect to HeatWave with OCI SQL Worksheet",
+          "title": "Lab 6: Connect to HeatWave with OCI SQL Worksheet",
           "filename": "../../connect-dbs-worksheet/connect-dbs-worksheet.md"
         },
 
         {
-          "title": "Lab 12: Manage MySQL HeatWave DB System",
-          "filename": "../../manage-heatwave/manage-heatwave.md"
-        },
-
-        {
-          "title": "Lab 13: Backup MySQL HeatWave DB System",
-          "filename": "../../backup-dbs/backup-dbs.md"
-        },
-
-        {
-          "title": "Lab 14: Configure MySQL HeatWave DB System",
-          "filename": "../../config-dbs/config-dbs.md"
-        },
- 
-        
-        {
-          "title": "Lab 15: Setup MySQL HeatWave Read Replicas",
-          "filename": "../../setup-replicas/setup-replicas.md"
-        },
-
-        {
-          "title": "Lab 16: Setup MySQL HeatWave Inbound Replication",
-          "filename": "../../setup-inbound-replication/setup-inbound-replication.md"
-        },
-
-                
-        {
-          "title": "Lab 17: Migrate Data Into MySQL HeatWave",
-          "filename": "../../migrate-data/migrate-data.md"
-        },
-              
-        {
-          "title": "Lab 18: Setup MySQL HeatWave High Availability",
+          "title": "Lab 7: Setup MySQL HeatWave High Availability",
           "filename": "../../setup-ha/setup-ha.md"
         },
 
         {
-          "title": "Lab 19: Stop OCI Services",
+          "title": "Lab 8: Migrate Data Into MySQL HeatWave",
+          "filename": "../../migrate-data/migrate-data.md"
+        },
+              
+        {
+          "title": "Lab 9: Configure MySQL HeatWave DB System",
+          "filename": "../../config-dbs/config-dbs.md"
+        },
+ 
+
+        {
+          "title": "Lab 10: Manage MySQL HeatWave DB System",
+          "filename": "../../manage-heatwave/manage-heatwave.md"
+        },
+
+        {
+          "title": "Lab 11: Backup MySQL HeatWave DB System",
+          "filename": "../../backup-dbs/backup-dbs.md"
+        },
+
+     
+        {
+          "title": "Lab 12: Setup MySQL HeatWave Read Replicas",
+          "filename": "../../setup-replicas/setup-replicas.md"
+        },
+
+        {
+          "title": "Lab 13: Setup MySQL HeatWave Inbound Replication",
+          "filename": "../../setup-inbound-replication/setup-inbound-replication.md"
+        },
+
+             
+        {
+          "title": "Lab 14: Load Airportdb Data into HeatWave",
+          "filename": "../../load-heatwave/load-heatwave.md"
+        },
+      
+        {
+          "title": "Lab 15: Run Queries in HeatWave and MySQL ",
+          "filename": "../../run-queries/run-queries.md"
+        },
+
+        {
+          "title": "Lab 16: Create and Test HeatWave Machine Learning",
+          "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
+        }, 
+
+        {
+          "title": "Lab 17: Create and Test HeatWave Lakehouse",
+          "filename": "../../do-lakehouse/do-lakehouse.md"  
+        },
+
+
+        {
+          "title": "Lab 18: (Bonus) Build Oracle Analytics Cloud Dashboard with HeatWave",
+          "filename": "../../do-oac-advanced/do-oac-advanced.md"
+        }, 
+
+        {
+          "title": "Lab 19: (Bonus)  Build LAMP Application with MySQL HeatWave",
+          "filename": "../../create-lamp-advanced/create-lamp-advanced.md"
+        },  
+
+        {
+          "title": "Lab 20: Stop OCI Services",
           "filename": "../../stop-services/stop-services.md"
         },
 
