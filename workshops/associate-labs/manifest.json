@@ -22,7 +22,7 @@
    
         {
             "title": "Lab 2: Create MySQL HeatWave Instance",
-            "filename": "../../create-dbs/create-dbs.md"
+            "filename": "../../create-dbs-oltp/create-dbs-oltp.md"
         },
 
         {
@@ -46,43 +46,41 @@
         },
 
         {
-          "title": "Lab 7: Setup MySQL HeatWave High Availability",
-          "filename": "../../setup-ha/setup-ha.md"
-        },
-
-        {
-          "title": "Lab 8: Migrate Data Into MySQL HeatWave",
-          "filename": "../../migrate-data/migrate-data.md"
-        },
-              
-        {
-          "title": "Lab 9: Configure MySQL HeatWave DB System",
-          "filename": "../../config-dbs/config-dbs.md"
-        },
- 
-
-        {
-          "title": "Lab 10: Manage MySQL HeatWave DB System",
+          "title": "Lab 7: Manage MySQL HeatWave DB System",
           "filename": "../../manage-heatwave/manage-heatwave.md"
         },
 
         {
-          "title": "Lab 11: Backup MySQL HeatWave DB System",
+          "title": "Lab 8: Backup MySQL HeatWave DB System",
           "filename": "../../backup-dbs/backup-dbs.md"
         },
 
-     
         {
-          "title": "Lab 12: Setup MySQL HeatWave Read Replicas",
+          "title": "Lab 9: Configure MySQL HeatWave DB System",
+          "filename": "../../config-dbs/config-dbs.md"
+        },
+      
+        {
+          "title": "Lab 10: Setup MySQL HeatWave Read Replicas",
           "filename": "../../setup-replicas/setup-replicas.md"
         },
 
+        {
+          "title": "Lab 11: Setup MySQL HeatWave High Availability",
+          "filename": "../../setup-ha/setup-ha.md"
+        },
+
+        {
+          "title": "Lab 12: Migrate Data Into MySQL HeatWave",
+          "filename": "../../migrate-data/migrate-data.md"
+        },
+              
         {
           "title": "Lab 13: Setup MySQL HeatWave Inbound Replication",
           "filename": "../../setup-inbound-replication/setup-inbound-replication.md"
         },
 
-             
+
         {
           "title": "Lab 14: Load Airportdb Data into HeatWave",
           "filename": "../../load-heatwave/load-heatwave.md"
