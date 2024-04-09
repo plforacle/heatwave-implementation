@@ -40,7 +40,7 @@ In this lab, you will be guided through the following tasks:
     - Create Administrator credentials
     - Configure Networking
     - Configure placement
-    - Configure hardware
+    - Configure hardware without HeatWave Cluster
     - Exclude Backups
     - Set up Advanced Options
 
@@ -94,28 +94,25 @@ In this lab, you will be guided through the following tasks:
     ![heatwave db  backup](./images/mysql-create-backup.png " heatwave db  backup")
 
 9. On Configure hardware
-    - 1. **IMPORTANT** Check the  **Enable Heatwave** box
+    - 1. **IMPORTANT** We will not need the HeatWave Cluster for now so  Un-Check the  **Enable Heatwave** box.
     - 2. Click the **Change shape** button to select **ECPU** then **MySQL.8** shape and and click the **Select a Shape** button
-    - 3. Click the **Configure HeatWave Cluster** button 
-        - Select **Change shape**
-        - Select **HeatWave.512GB** shape
-        - Set **Node** to 1
-        - Check the **MySQL HeatWave Lakehouse** box
-        - Click the **Save Changes** button
-    - 4. For Data Storage Size (GB) Set value to:  **512**
-
     ![heatwave db  hardware heatwave](./images/mysql-create-db-hardware-heatwave-ecpu.png "heatwave db hardware heatwave")
+10. For Data Storage Size (GB) Set value to:  **50**
 
-10. **IMPORTANT**
+    Your Database Hardware Configuration should look like the following image
+
+    ![heatwave db  hardware heatwave](./images/mysql-create-db-hardware-heatwave-ecpu-config.png "heatwave db hardware config")
+
+11. **IMPORTANT**
     > **NOTE** In order to successfully complete this workshop you must execute **steps 11, 12, and 13**
 
-11. Click on Show Advanced Options
+12. Click on Show Advanced Options
 
-12. **IMPORTANT** Go to the Configuration tab. Click on **Select a MySQL version** and select the latest MySQL version of the DB system.
+13. **IMPORTANT** Go to the Configuration tab. Click on **Select a MySQL version** and select the latest MySQL version of the DB system.
 
     ![HeatWave add host](./images/mysql-configuration-version.png "mysql host ")
 
-13. **IMPORTANT** Go to the Connections tab, in the Hostname field enter (your DB System Name):
+14. **IMPORTANT** Go to the Connections tab, in the Hostname field enter (your DB System Name):
 
     ```bash
         <copy>HEATWAVE-DB</copy> 
@@ -123,18 +120,18 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave db advanced](./images/mysql-create-advanced-connections.png "heatwave db advanced ")
 
-14. Review **Create MySQL DB System**  Screen
+15. Review **Create MySQL DB System**  Screen
 
     ![heatwave db create](./images/mysql-create.png "heatwave db create ")
   
     Click the '**Create**' button
 
-15. The New MySQL DB System will be ready to use after a few minutes
+16. The New MySQL DB System will be ready to use after a few minutes
 
     The state will be shown as 'Creating' during the creation
     ![show creeation state](./images/mysql-create-in-progress.png "show creeation state")
 
-16. The state 'Active' indicates that the DB System is ready for use
+17. The state 'Active' indicates that the DB System is ready for use
 
     On HEATWAVE-HW Page, select the **Connections** tab and save the **Private IP**
 
