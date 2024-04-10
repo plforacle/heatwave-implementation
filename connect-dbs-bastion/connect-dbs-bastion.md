@@ -113,7 +113,7 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
     - Session Name
         *Keep Default*
     - IP address
-        *Enter IP addtess from notepad*
+        *Enter HeatWave DB IP address ( from notepad)*
 
 8. Enter the Port
 
@@ -150,11 +150,11 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
 
     ![notepad display](./images/notepad-connect-command.png "notepad display")
 
-5. Open the cloud shell and enter the command from the notepad. Add  the Database IP address Enter IP addtess from notepad It should like this..
+5. Open a Windows PowerShell or Mac Terminal and enter the command from the notepad. Add  the ssh file name  and the Database Port  value (3306) It should like this..
 
     *Don't forget the -v  character*
 
-    `ssh -i <privateKey> -N -L 3306:10.0.1.91:3306 -p 22 ocid1.bastionsession.oc1.iad.amaaaaaa4flldaqaenwy5wydszfhp2q7af463mdzgeh33kakv5ztmoq4v3nq@host.bastion.us-ashburn-1.oci.oraclecloud.com -v`
+    `ssh -i ~/.ssh/id_rsa -N -L 3306:10.0.1.17:3306 -p 22 ocid1.bastionsession.oc1.iad.amaaaaaa47ys2xaabm3koownovovwekvkitudcvdjk6dc5qtl6c6mtwxdkuq@host.bastion.us-ashburn-1.oci.oraclecloud.com -v`
 
 6. Use MySQL Shell to connect to the MySQL Database Service. Enter:
 
