@@ -138,7 +138,7 @@ In this lab, you will be guided through the following task:
 
     d. Select **Select database** option
 
-    e. Select **MySQL Database** for Database cloud service
+    e. Select **MySQL Database** for Database cloud servic,  then select the MySQl databse you want to work with
 
     f. Enter **admin** for username
 
@@ -168,7 +168,7 @@ In this lab, you will be guided through the following task:
     a. List the schemas
 
     ```bash
-    <copy>show database;</copy>
+    <copy>show databases;</copy>
     ```
 
     ![Connection Run](./images/connection-run.png "Connection Run")
