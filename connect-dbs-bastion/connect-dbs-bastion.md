@@ -95,9 +95,11 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
 
     ![new cloud shell get ssh](./images/cloudshell-get-ssh.png "new cloud shell det ssh")
 
-3. Copy the id_rsa.pub content the notepad
+3. Copy the id\_rsa.pub content from the notepad.
         Your notepad should look like this
     ![notepad](./images/notepad-display.png "notepad ")  
+
+    >**Note** Make sure you have a copy of your id\_rsa and Id\_rsa.pub files in your local ~/.ssh folder. If not download it from the cloud shell where you originally created it. 
 
 4. Go to Navigation Menu > Identity Security > Bastion
 
@@ -172,14 +174,10 @@ The new Bastion Service will allow you to create a SSH Tunnel to your MySQL DB S
 
 **Note** You can also use  the bastion service to connect to your local computer and access  MySQL  with Workbench or Visual Studio Code
 
-Watch the video below for a quick walk through.
-
-[](youtube:3R0DBBer26E)
-
 You may now **proceed to the next lab**
 
 ## Acknowledgements
 
 - **Author** - Perside Foster, MySQL Principal Solution Engineering
 - **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager, Selena Sanchez, MySQL Solution Engineering
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, March 2024
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, April 2024
