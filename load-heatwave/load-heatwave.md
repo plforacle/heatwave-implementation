@@ -40,7 +40,7 @@ In this lab, you will be guided through the following task:
     >**Note** If the **HeatWave Cluster** is already enabled then skip to **Task 2**
 
     - a. Enable the **MySQL HeatWave LakeHouse** checkbox
-    - b. Set **Node Count** to 1 
+    - b. Set **Node Count** to 2 
     - c. Enable the **MySQL HeatWave Lakehouse** checkbox
     - d. Click the **Add HeatWave Cluster** button to create the HeatWave cluster
 

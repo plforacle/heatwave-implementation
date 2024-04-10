@@ -9,7 +9,8 @@ Use the export and import methods to transfer data from a MySQL instance to MySQ
 For more details see OCI Document:
 - [MySQL HeatWave Exporting and Importing](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/mysql-database/doc/exporting-and-importing.html).
 
-- [LiveLab: Migrate from on-premises to MySQL HeatWave]("https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/run-workshop?p210_wid=3609&p210_wec=&session=108406479306664")
+- https://plforacle.github.io/mysql-mgrate-apex/workshops/freetier/index.html
+
 
 _Estimated Time:_ 20 minutes
 
