@@ -6,8 +6,6 @@
 
 In this lab, you will create and configure a secure network on Oracle Cloud Infrastructure (OCI) that will be used to deploy a MySQL DB System.
 
-
-
 _Estimated Time:_ 10 minutes
 
 ### Objectives
@@ -27,7 +25,7 @@ In this lab, you will be guided through the following tasks:
 
 1. You should be signed in to Oracle Cloud!
 
-    Click **Navigation Menu**,
+    Click **Navigation Menu**
 
     ![OCI Console Home Page](./images/homepage.png " home page")
 
