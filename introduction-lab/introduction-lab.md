@@ -35,7 +35,7 @@ _Lab Setup
 
 ## Objectives
 
-This Workshop provides you with the knowledge required to Provision, Configure, and Manage MySQL HeatWave for OLTP / OLAP/ AutoML / Lakehouse. You will be guided through the following steps:
+This Workshop provides you with the knowledge required to Provision, Configure, and Manage MySQL HeatWave for OLTP / OLAP/ AutoML / Lakehouse. You will be guided through the following tasks:
 
 - Create MySQL HeatWave Instance
 - Create Compute Instance
@@ -55,7 +55,6 @@ This Workshop provides you with the knowledge required to Provision, Configure, 
 - (Bonus) Build Oracle Analytics Cloud Dashboard with HeatWave
 - Create and Test HeatWave Machine Learning
 - (Bonus) Build LAMP Application with MySQL HeatWave
-- (Bonus) Develop MySQL HeatWave Apps with Oracle APEX
 - Stop OCI Services
 
 
