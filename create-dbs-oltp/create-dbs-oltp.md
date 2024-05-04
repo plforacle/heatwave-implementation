@@ -89,22 +89,21 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave db network ad](./images/mysql-create-network-ad.png "heatwave db network ad ")
 
-8. On Configure Backups, disable 'Enable Automatic Backup'
-
-    ![heatwave db  backup](./images/mysql-create-backup.png " heatwave db  backup")
-
-9. On Configure hardware
-    - 1. **IMPORTANT** We will not need the HeatWave Cluster for now so  Un-Check the  **Enable Heatwave** box.
+8. On Configure hardware
+    - 1. **IMPORTANT** We will configure the HeatWave Cluster manually so  Un-Check the  **Enable Heatwave** box.
     - 2. Click the **Change shape** button to select **ECPU** then **MySQL.8** shape and and click the **Select a Shape** button
     ![heatwave db  hardware heatwave](./images/mysql-create-db-hardware-heatwave-ecpu.png "heatwave db hardware heatwave")
-10. For Data Storage Size (GB) Set value to:  **50**
+9. For Data Storage Size (GB) Set value to:  **500**
 
     Your Database Hardware Configuration should look like the following image
 
     ![heatwave db  hardware heatwave](./images/mysql-create-db-hardware-heatwave-ecpu-config.png "heatwave db hardware config")
+10. On Configure Backups, disable 'Enable Automatic Backup'
+
+    ![heatwave db  backup](./images/mysql-create-backup.png " heatwave db  backup")
 
 11. **IMPORTANT**
-    > **NOTE** In order to successfully complete this workshop you must execute **steps 11, 12, and 13**
+    > **NOTE** In order to successfully complete this workshop you must execute **steps 12, 13, and 14**
 
 12. Click on Show Advanced Options
 
