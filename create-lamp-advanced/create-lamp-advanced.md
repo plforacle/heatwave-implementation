@@ -220,28 +220,25 @@ if ($stmt = $link->prepare($query)) {
     <copy>cd /var/www/html</copy>
     ```
 
-2. Create mydbchart.php file
+2. Download dbchart.php  application code
+
+    ```bash
+    <copy> sudo wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/hfatroMDpGj1vYaeUCrlK_T_vcLgpinoNOHH-JUkbj6KPQnENm1MtmsgPVrszEHg/n/mysqlpm/b/mysql_airport/o/dbchart.php</copy>
+    ```
+
+3. update mydbchart.php file
 
     ```bash
     <copy>sudo nano mydbchart.php</copy>
     ```
 
-3. Click on this link to **Download file [dbchart.php](files/dbchart.php)**  to your local machine
-4. Open dbchart.php from your local machine
-
-    ![dbchart open](./images/dbchart-open.png "dbchart open ")
-
-5. copy all of the content of dbchart.php file from your local machine
-    - add the content to the mydbchart.php file that you are  creating
-
-        ![dbchart select all.](./images/dbchart-select-all.png "dbchart select all ")
-    - Remember to replace the IP daadress,username, and password (lines 2 and 98 )
+    - Replace the IP daadress,username, and password (lines 2 and 98 )
         - $con = mysqli_connect('30.0...','admin','Welcome#123','airportdb');
         - $link = mysqli_connect('30.0...','admin','Welcome#123','airportdb');
         ![dbchart copied](./images/dbchart-copied.png "dbchart copied ")
     - Save the mydbchart.php 
 
-6. From your local  machine connect to dbtest.php
+4. From your local  machine connect to dbtest.php
 
     Example: http://129.213.167..../mydbchart.php
     ![mydbchart out](./images/mydbchart-out.png "mydbchart out ")
