@@ -226,22 +226,22 @@ if ($stmt = $link->prepare($query)) {
     <copy> sudo wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/hfatroMDpGj1vYaeUCrlK_T_vcLgpinoNOHH-JUkbj6KPQnENm1MtmsgPVrszEHg/n/mysqlpm/b/mysql_airport/o/dbchart.php</copy>
     ```
 
-3. update mydbchart.php file
+3. update dbchart.php file
 
     ```bash
-    <copy>sudo nano mydbchart.php</copy>
+    <copy>sudo nano dbchart.php</copy>
     ```
 
     - Replace the IP daadress,username, and password (lines 2 and 98 )
         - $con = mysqli_connect('30.0...','admin','Welcome#123','airportdb');
         - $link = mysqli_connect('30.0...','admin','Welcome#123','airportdb');
         ![dbchart copied](./images/dbchart-copied.png "dbchart copied ")
-    - Save the mydbchart.php 
+    - Save the dbchart.php 
 
-4. From your local  machine connect to dbtest.php
+4. From your local  machine connect to dbchart.php
 
-    Example: http://129.213.167..../mydbchart.php
-    ![mydbchart out](./images/mydbchart-out.png "mydbchart out ")
+    Example: http://129.213.167..../dbchart.php
+    ![dbchart out](./images/mydbchart-out.png "dbchart out ")
 
 ## TASK 6: Create HeatWave ML Web App
 
